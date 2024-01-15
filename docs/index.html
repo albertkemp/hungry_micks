@@ -11,6 +11,12 @@
         <style>
             body {
                 background-image: url('images/tomato-eggplant-organic-vegetable-food-photo-backgrounds-\ Large.jpeg');
+                padding: 200px;
+                width: 85%;
+                margin: auto;
+            }
+            html{
+                background-color: grey;
             }
             .center{
 text-align:center;
@@ -30,11 +36,17 @@ button{
     margin: auto;
     border: none;
     position: absolute;
-    left: 45%;
 }
+
 button:hover{
     cursor: pointer;
     background-color: grey;
+}
+#menubutton{
+    left: 40%;
+}
+#reviewbutton{
+    left: 50%;
 }
 hr{
     width: 450px;
@@ -45,7 +57,8 @@ hr{
         <h1 class="center">Hungry Mick's Restaurant</h1>
         <p class="center">Delicious since 2010</p>
         <hr>
-        <a target="blank" href="menu.html"><button>Menu</button></a>
+        <a target="blank" href="menu.html"><button id="menubutton">Menu</button></a>
+        <a target="blank" href="reviews.html"><button id="reviewbutton">Reviews</button></a>
         <img src="images/1200px-Etoile_Michelin-3.svg.png" height="20px">
         <h2>ABOUT</h2>
         <p>Hungry Mick's is a michelin starred restaurant specialised in serving food for Mick.</p>
